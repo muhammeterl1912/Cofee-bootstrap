@@ -1,0 +1,86 @@
+:root {
+  --primarycolor:rgba(210, 105, 30, 0.578);
+  --secondarycolor:#4d3822;
+  --hover-color:#fff;
+}
+/* ......................navbar............................. */
+
+.container {
+  background-color: var(--primarycolor);
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+.navbar {
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.navbar .container {
+    background-color: rgba(210, 105, 30, 0.578);
+}
+
+.navbar-nav{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: var(--hover-color)!important;
+    transition: all 1s;
+}
+/* ......................................Carousel.................................... */
+.carousel-caption {
+    bottom: 40%;
+}
+.btn{
+background-color: var(--primarycolor);
+border: none;
+white-space: nowrap;
+color: white;
+font-weight: bold;
+}
+.btn:hover{
+  background-color: var(--primarycolor);
+ width: 10rem;
+ transition: all 0.5s;
+ opacity: 0.5;
+
+}
+.erol{
+    color: white;
+    position: relative;
+    z-index: 5;
+}
+.black{
+    width: 350px;
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0.718);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(40deg);
+    z-index: 1;
+}
+.carousel-indicators{
+      color: red !important;
+    
+
+}
+.carousel-indicators button{
+   background-color:var(--primarycolor) !important;
+   padding: 0.1rem !important;
+   width: 3rem !important;
+  
+}
+
+section#about{
+    height: 100vh;
+    background-color: var(--secondarycolor);
+}
