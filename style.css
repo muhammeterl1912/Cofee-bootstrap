@@ -50,13 +50,13 @@ font-weight: bold;
   background-color: var(--primarycolor);
  width: 10rem;
  transition: all 0.5s;
- opacity: 0.5;
+
 
 }
 .erol{
     color: white;
     position: relative;
-    z-index: 5;
+    z-index: 3;
 }
 .black{
     width: 350px;
