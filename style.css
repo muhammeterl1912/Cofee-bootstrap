@@ -3,15 +3,16 @@
   --secondarycolor:#4d3822;
   --hover-color:#fff;
 }
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
 /* ......................navbar............................. */
 
 .container {
   background-color: var(--primarycolor);
 }
 
-* {
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
+
 .carousel-item img {
     height: 100vh;
     object-fit: cover;
