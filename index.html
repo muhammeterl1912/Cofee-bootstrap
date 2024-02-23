@@ -1,193 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Erol Cafe</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- .......................Navbar................................................... -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container rounded-4">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="./img/pexels-mahnoush-mansoori-15169702.jpg"
-            width="40px"
-            alt="logo"
-            class="rounded-4"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Review</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- .......................Carousel................................................... -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/slider1.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <div class="erol">
-              <h3 >Welcome to EROL Cafe</h3>
-              <h1 >EROL Cafe</h1>
-              <p >Your Favorite Cofee.</p>
 
-              <div class="btncontainer">
-                <button class="btn rounded-pill me-5">Check Menu</button>
-                <button class="btn rounded-pill">Our Story</button>
-              </div>
-               </div>
-               <div class="black rounded-5"></div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/slider2.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-         <div class="erol">
-          <h3 >Welcome to EROL Cafe</h3>
-          <h1 >EROL Cafe</h1>
-          <p >Your favorite Cofee.</p>
-          <div class="btncontainer">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Erol Cafe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- .......................Navbar................................................... -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container rounded-4">
+      <a class="navbar-brand" href="#"><img src="./img/pexels-mahnoush-mansoori-15169702.jpg" width="40px" alt="logo"
+          class="rounded-4" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Review</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- .......................Carousel................................................... -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/slider1.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="erol">
+            <h3>Welcome to EROL Cafe</h3>
+            <h1>EROL Cafe</h1>
+            <p>Your Favorite Cofee.</p>
+
+            <div class="btncontainer">
               <button class="btn rounded-pill me-5">Check Menu</button>
               <button class="btn rounded-pill">Our Story</button>
             </div>
-         </div>
-         <div class="black rounded-5"></div>
-               </div>
           </div>
-          <div class="carousel-item">
-            <img src="./img/slider3.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="erol">
-                  <h3 >Welcome to EROL Cafe</h3>
-                  <h1 >EROL Cafe</h1>
-                  <p >Your Favorite Cofee.</p>
-    
-                  <div class="btncontainer">
-                    <button class="btn rounded-pill me-5">Check Menu</button>
-                    <button class="btn rounded-pill">Our Story</button>
-                  </div>
-                   </div>
-                   <div class="black rounded-5"></div>
+          <div class="black rounded-5"></div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slider2.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="erol">
+            <h3>Welcome to EROL Cafe</h3>
+            <h1>EROL Cafe</h1>
+            <p>Your favorite Cofee.</p>
+            <div class="btncontainer">
+              <button class="btn rounded-pill me-5">Check Menu</button>
+              <button class="btn rounded-pill">Our Story</button>
             </div>
           </div>
+          <div class="black rounded-5"></div>
         </div>
-        
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- ........................About............................ -->
+      <div class="carousel-item">
+        <img src="./img/slider3.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="erol">
+            <h3>Welcome to EROL Cafe</h3>
+            <h1>EROL Cafe</h1>
+            <p>Your Favorite Cofee.</p>
 
-    <section id="about"> 
-        <h1 class=" text-white text-center py-5"> About Us</h1>
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col12 col-md-6 text-white">
-              <div class="image-container rounded-4 overflow-hidden">
-                <img src="./img/about.jpg" alt="About" width="100%">
-               <div class="about-image-info text-white p-3 d-flex flex-column justify-content-end">
-                <div>
-                  <h4 class="fs-3 fw-bolder">Since 2020</h4>
-                  <h4 class="fs-4">Best in Warsaw</h4>
-                </div>
-               </div>
+            <div class="btncontainer">
+              <button class="btn rounded-pill me-5">Check Menu</button>
+              <button class="btn rounded-pill">Our Story</button>
+            </div>
+          </div>
+          <div class="black rounded-5"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <!-- ........................About............................ -->
+
+  <section id="about" class="p-4">
+    <h1 class=" text-white text-center py-5"> About Us</h1>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col12 col-md-6 text-white">
+          <div class="image-container rounded-4 overflow-hidden">
+            <img src="./img/about.jpg" alt="About" width="100%">
+            <div class="about-image-info text-white p-3 d-flex flex-column justify-content-end">
+              <div>
+                <h4 class="fs-3 fw-bolder">Since 2020</h4>
+                <h4 class="fs-4">Best in Warsaw</h4>
               </div>
             </div>
-     <div class="col-12 col-md-6 lh-lg">
-      <em>cafeErol.com</em>
-      <h2 class="fs-4 mb-3">Erol Cafe: Where Every Sip is an Experience</h2>
-      <p class="fs-6">Erol Cafe, where every cup tells a story. Nestled in Warsaw, Erol Cafe is not just a coffee shop; it's a sanctuary for coffee enthusiasts and those seeking solace in each sip.
-    
-        Step into our inviting space and immerse yourself in the aroma of freshly roasted beans. From classic espressos to specialty concoctions, our menu caters to all tastes, perfectly complemented by our selection of delectable pastries.
-        
-        But Erol Cafe is more than just a place for coffee; it's a vibrant community hub. Join us for live performances, poetry evenings, and more.
-        
-        Experience Erol Cafe, where every sip is an adventure and every visit feels like coming home.
-        </p>
-        <button class="btn btn-warning mt-3">Meet M.Erol</button>
-     </div>
-    
           </div>
         </div>
-    </section>
+        <div class="col-12 col-md-6 lh-lg">
+          <em>cafeErol.com</em>
+          <h2 class="fs-4 mb-3">Erol Cafe: Where Every Sip is an Experience</h2>
+          <p class="fs-6">Erol Cafe, where every cup tells a story. Nestled in Warsaw, Erol Cafe is not just a coffee
+            shop; it's a sanctuary for coffee enthusiasts and those seeking solace in each sip.
 
-    
+            Step into our inviting space and immerse yourself in the aroma of freshly roasted beans. From classic
+            espressos to specialty concoctions, our menu caters to all tastes, perfectly complemented by our selection
+            of delectable pastries.
+
+            But Erol Cafe is more than just a place for coffee; it's a vibrant community hub. Join us for live
+            performances, poetry evenings, and more.
+
+            Experience Erol Cafe, where every sip is an adventure and every visit feels like coming home.
+          </p>
+          <button class="btn btn-warning mt-3">Meet M.Erol</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ..........................Meeting People.................................... -->
+
+  <section id="people">
+    <div class="people-header  text-center">
+      <em>Barista</em>
+      <h1>Meet People</h1>
+    </div>
+    <div class="container">
+      <div class="row p-5 row-gap-3 justify-content-center">
+        <div class="col col-md-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="card">
+            <img src="./img/team/our-team-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Muhammet</h5>
+              <h6>
+                <div class="card-title">Menager</div>
+              </h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="socials fs-4 d-flex justify-content-evenly ">
+                <a href=""> <i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/muhammeterl1912" target="_blank"> <i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/muhammet-erol-644576255/" target="_blank"> <i
+                    class="bi bi-linkedin"></i></a>
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="card">
+            <img src="./img/team/our-team-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fevzi</h5>
+              <h6>
+                <div class="card-title">Waiter</div>
+              </h6>
+              <h6><div class="card-title"></div></h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="socials fs-4 d-flex justify-content-evenly ">
+                <a href="">  <i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/muhammeterl1912" target="_blank"> <i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/muhammet-erol-644576255/" target="_blank">  <i class="bi bi-linkedin"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="card">
+            <img src="./img/team/our-team-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fatma</h5>
+              <h6>
+                <div class="card-title">Waitress</div>
+              </h6>
+              <h6>
+                <div class="card-title"></div>
+              </h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="socials fs-4 d-flex justify-content-evenly ">
+                <a href=""> <i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/muhammeterl1912" target="_blank"> <i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/muhammet-erol-644576255/" target="_blank"> <i
+                    class="bi bi-linkedin"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="card">
+            <img src="./img/team/our-team-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Zeki</h5>
+              <h6>
+                <div class="card-title">Diswasher</div>
+              </h6>
+              <h6>
+                <div class="card-title"></div>
+              </h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="socials fs-4 d-flex justify-content-evenly ">
+                <a href=""> <i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/muhammeterl1912" target="_blank"> <i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/muhammet-erol-644576255/" target="_blank"> <i
+                    class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="card">
+            <img src="./img/team/our-team-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Safinaz</h5>
+              <h6>
+                <div class="card-title">Waiter</div>
+              </h6>
+              <h6>
+                <div class="card-title"></div>
+              </h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="socials fs-4 d-flex justify-content-evenly ">
+                <a href=""> <i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/muhammeterl1912" target="_blank"> <i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/muhammet-erol-644576255/" target="_blank"> <i
+                    class="bi bi-linkedin"></i></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="card">
+            <img src="./img/team/our-team-6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Necmi</h5>
+              <h6>
+                <div class="card-title">Komi</div>
+              </h6>
+              <h6>
+                <div class="card-title"></div>
+              </h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <div class="socials fs-4 d-flex justify-content-evenly ">
+                <a href=""> <i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/muhammeterl1912" target="_blank"> <i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/muhammet-erol-644576255/" target="_blank"> <i
+                    class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -202,12 +320,9 @@
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
 
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
