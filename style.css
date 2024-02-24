@@ -109,7 +109,7 @@ section#about{
 }
 /* .................Section................................. */
 section#people{
-    background-color: var(--meet-color);
+    background-color: var(--secondarycolor);
 }
 section#people .container{
     background-color: var(--secondarycolor);
@@ -131,3 +131,16 @@ section a {
 section a i:hover {
   opacity: 0.5;
  }
+ .meet-people{
+    color: #fff;
+ }
+ /* ...................menu............................ */
+ section#menu{
+    background-color: var(--secondarycolor) !important;
+ }
+ section#menu button{
+    color: #fff;
+    background-color: var(--secondarycolor) !important;
+    margin-right: 1rem;
+ } 
+ 
