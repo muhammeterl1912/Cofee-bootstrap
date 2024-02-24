@@ -38,6 +38,11 @@
     transition: all 1s;
     transform: scale(1.1);
 }
+nav.navbar a:hover {
+
+    color: var(--secondarycolor) !important;
+
+}
 /* ......................................Carousel.................................... */
 .carousel-caption {
     bottom: 40%;
