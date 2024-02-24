@@ -156,3 +156,11 @@ section#people .card .img:hover{
     resize: none;
     height: 150px !important;
  }
+
+ /* ....................Foooter................................ */
+ footer{
+    background-color: var(--secondarycolor);
+}
+footer .container {
+    background-color: var(--secondarycolor);
+}
