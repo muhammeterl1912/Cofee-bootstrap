@@ -143,4 +143,7 @@ section a i:hover {
     background-color: var(--secondarycolor) !important;
     margin-right: 1rem;
  } 
- 
+ a {
+    text-decoration: none !important;
+    color:#fff !important;
+ }
