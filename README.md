@@ -1,7 +1,7 @@
 
 # Bootstrap Coffee 
 
-This project was coded with Bootstrap and Pure.css to create a website that looks good.
+This project was coded with Bootstrap and Pure.css to create a website that looks good.The website is fully responsive.
 
 
 ## Demo
