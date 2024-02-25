@@ -6,7 +6,7 @@ This project was coded with Bootstrap and Pure.css to create a website that look
 
 ## Demo
 
-Insert gif or link to demo
+https://muhammeterl1912.github.io/Cofee-bootstrap/
 
 
 ## Tech Stack
